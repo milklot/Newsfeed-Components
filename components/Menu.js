@@ -1,16 +1,17 @@
 // This is the data we will be using, study it but don't change anything, yet.
 
 let menuItems = [
-  'Students',
-  'Faculty',
-  "What's New",
-  'Tech Trends',
-  'Music',
-  'Log Out'
+    'Students',
+    'Faculty',
+    "What's New",
+    'Tech Trends',
+    'Music',
+    'Log Out'
 ];
 
 /* 
   Step 1: Write a component called 'menuMaker' to create a menu like the markup below:
+
 
   <div class="menu">
     <ul>
@@ -19,7 +20,15 @@ let menuItems = [
   </div>
 
   The 'menuMaker' takes an array of menu items as its only argument.
+*/
 
+const menuMaker = (menuArr) => {
+
+    cosnt
+
+}
+
+/*
   Step 2: Inside the function, iterate over the array creating a list item <li> element for each item in the array.
   Add those items to the <ul>
 
